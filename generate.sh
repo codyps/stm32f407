@@ -6,6 +6,12 @@ on_exit() {
 		rm -f "$t"
 	fi
 }
+if [ $# -ne 1 ]; then
+	>&2 echo "usage: $0 TARGET.svd"
+	exit 1
+fi
+
+
 trap on_exit EXIT
 t=$(mktemp)
 
