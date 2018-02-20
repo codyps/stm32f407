@@ -1,14 +1,14 @@
 [package]
-name = "stm32f429"
+name = "stm32f407"
 version = "0.3.0"
 authors = ["Cody Schafer <dev@codyps.com>"]
-description = "Peripheral access API for STM32F429 microcontrollers"
-documentation = "https://docs.rs/stm32f429"
+description = "Peripheral access API for STM32F407 microcontrollers"
+documentation = "https://docs.rs/stm32f407"
 keywords = ["arm", "cortex-m", "stm32", "svd2rust"]
 categories = ["embedded", "hardware-support", "no-std"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/jmesmon/stm32f429"
-include = ["Cargo.toml", "**/*.rs", "generate.sh", "STM32F429.patch", "README.md", "LICENSE-*"]
+repository = "https://github.com/jmesmon/stm32f407"
+include = ["Cargo.toml", "**/*.rs", "generate.sh", "STM32F407.patch", "README.md", "LICENSE-*"]
 
 [dependencies]
 bare-metal = "0.1"

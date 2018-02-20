@@ -1,8 +1,8 @@
-# `stm32f429`
+# `stm32f407`
 
-> Peripheral access API for STM32F429 microcontrollers
+> Peripheral access API for STM32F407 microcontrollers
 
-# [Documentation](https://docs.rs/stm32f429)
+# [Documentation](https://docs.rs/stm32f407)
 
 # License
 

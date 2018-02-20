@@ -1,7 +1,7 @@
 set -ex
 
 main() {
-    local svd=STMicro/STM32F429.svd
+    local svd=STMicro/STM32F407.svd
 
     if [ $TARGET = x86_64-unknown-linux-gnu ]; then
         cargo check

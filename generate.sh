@@ -10,5 +10,5 @@ trap on_exit EXIT
 t=$(mktemp)
 
 cp "$1" "$t"
-patch "$t" STM32F429.patch
+patch "$t" STM32F407.patch
 svd2rust -i "$t" | rustfmt >"$d/src/lib.rs"
