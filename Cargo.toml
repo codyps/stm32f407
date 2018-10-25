@@ -12,7 +12,7 @@ include = ["Cargo.toml", "**/*.rs", "generate.sh", "STM32F407.patch", "README.md
 
 [dependencies]
 bare-metal = "0.1"
-cortex-m = "0.4"
+cortex-m = "0.5"
 vcell = "0.1"
 
 [dependencies.cortex-m-rt]
